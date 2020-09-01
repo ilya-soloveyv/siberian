@@ -113,11 +113,11 @@ input {
   }
   &:invalid:not(:placeholder-shown) ~ .input-wrap__status {
     background-color: #dc3545;
-    background-image: url("/images/input-wrap__error.svg");
+    background-image: url("~@/assets/input-wrap__error.svg");
   }
   &:valid:not(:placeholder-shown) ~ .input-wrap__status {
     background-color: #28a745;
-    background-image: url("/images/input-wrap__success.svg");
+    background-image: url("~@/assets/input-wrap__success.svg");
   }
   &::placeholder {
     opacity: 0;
