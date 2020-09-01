@@ -2,11 +2,14 @@
 
 ## Запуск проекта
 ```
+git clone https://github.com/ilya-soloveyv/siberian.git
+```
+```
+cd siberian
+```
+```
 npm install
 ```
 ```
-npm run build
-```
-```
-npm run start
+Запуск файла ./dist/index.html
 ```
